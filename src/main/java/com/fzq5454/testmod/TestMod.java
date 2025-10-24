@@ -7,7 +7,6 @@ public class TestMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        // 注册物品
         com.fzq5454.testmod.item.ModItems.register();
     }
 }
